@@ -113,7 +113,7 @@
       "Subject" : "New form submission",
       "Body"  : "Name: " +a[0].value + " \n email:" + a[1].value,
          };
-          alert(emailConfig.Body)
+         // alert(emailConfig.Body)
           
   Email.send(emailConfig).then(
     message => alert(message)
